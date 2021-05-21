@@ -1,0 +1,22 @@
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem 2, 8rem;
+
+  @media screen and (max-width: 650px) {
+    display: block;
+  }
+}
+
+.portfolio__col {
+  flex-basis: 33%;
+  padding: 0.5rem;
+
+  @media @mobile {
+    flex-basis: 50%;
+  }
+
+  @media @mobile-sm {
+    flex-basis: 100%;
+  }
+}
